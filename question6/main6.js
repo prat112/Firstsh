@@ -5,6 +5,9 @@
 //var thirdItem = items.getElementsByTagName("li")[2];
 //thirdItem.style.display = "none";
 
+var thirdItem = document.querySelector("#items li:nth-child(3)");
+thirdItem.style.display = "none";
+
 
 var secondItem = document.querySelectorAll(".list-group-item:nth-child(2)");
 secondItem[0].style.color='green';
