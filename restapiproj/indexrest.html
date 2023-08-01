@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Admin Page</title>
+</head>
+
+<body>
+    <h2>Total Stock Value</h2>
+    <form id="form">
+        Selling Price: <input type="number" id="price">
+        Product Name: <input type="text" id="product">
+        Choose a Category:
+        <select id="dropdown">
+            <option value="Electronics">Electronics</option>
+            <option value="Food">Food</option>
+            <option value="Skincare">Skincare</option>
+        </select>
+        <button>Add Product</button>
+    </form>
+    <ul id="pro">
+        <h2>Products</h2>
+    </ul>
+    <ul id="electronics">
+        <h3>Electronics</h3>
+    </ul>
+    <ul id="food">
+        <h3>Food</h3>
+    </ul>
+    <ul id="skincare">
+        <h3>Skincare</h3>
+    </ul>
+
+    <h2 id="total"><strong><p1 id="amt"></p1></strong></h2>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    <script src="mainrest.js"></script>
+</body>
+
+</html>
